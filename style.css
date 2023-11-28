@@ -1,0 +1,179 @@
+ 
+body, html {
+   margin: auto;
+   max-width: 90%;
+   background-color: rgb(32,90,36);
+   color:aqua;
+   background-image: url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: bottom ;
+    font-family: open sans;
+   
+
+}
+ p{
+    font-style:serif;
+    line-height: 1.5
+    height: 100px;
+    width: 100%;
+    font-size: 16px;;
+    margin-bottom:25px
+
+    }
+a:link{
+    color:violet
+} 
+a:hover {
+    background-color: green;
+  }  
+a:visited{
+    color: red;
+}
+table {
+    border: 1px solid black;
+    table-layout: fixed;
+    width: 50%;
+    margin:0 auto;
+  }
+
+  th,
+  td {
+    border: 1px solid black;
+    width: 100%;
+    overflow: hidden;
+  }
+  .center{
+    text-align: center;
+  }
+figure {
+    display: inline-block;
+    }
+figure img {
+    vertical-align: top;
+    margin: auto;
+    max-width: 95%;
+    margin: 0 auto;
+       
+}
+figure figcaption {
+    text-align: center;
+    
+}
+
+blockquote{
+    font-style: italic;
+    max-width:50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: larger;
+    background-color: lightgray;
+    border-left: 3px solid firebrick;
+    border-spacing: 30px;
+    color: black;
+}
+h1{text-align: center;
+    text-decoration: underline;
+}
+h2{
+    text-align: center;}
+q{
+    font-style:oblique;
+    
+}
+.villager {
+    border-left: 3px solid rgb(156, 136, 136);
+}
+.farmer {
+    border-left: 3px solid rgb(34, 178, 41);
+}
+header{
+    background-color: yellow;
+}
+strong,.good
+{
+    text-transform:capitalize;
+    color:green
+}
+strong,.bad
+ {
+    text-transform:capitalize;
+    color:red
+}
+tr:nth-child(even) {
+    background-color: grey;
+}
+tr:nth-child(odd) {
+    background: #FFF;
+    color: black;
+}
+
+li.peoplegood
+ {
+    list-style-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Wilson-3/main/Assets/bien.png?token=GHSAT0AAAAAACJUPXRQJH7D5AEGIGIVPO6CZLEZL3A);
+  }
+.peoplebad
+{
+    list-style-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Wilson-3/main/Assets/mal.png?token=GHSAT0AAAAAACJUPXRQVT4LNRX7LUVX4E2OZLEYFEA);
+}
+
+.cat
+{
+    list-style-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Wilson-3/main/Assets/chat.png?token=GHSAT0AAAAAACJUPXRRUUTYFJSUKLKCA5BMZLEYG6Q);
+}
+
+.noclue
+{
+    list-style-image:none
+}
+.legend{
+    text-align:center ;
+}
+.tableau{
+    text-align: center;
+}
+ul{
+}
+.peoplebad{background-image: url(https://cdn0.iconfinder.com/data/icons/clipboard-1/100/clipboard-10-512.png);
+        background-position: 295px 0px;
+        background-repeat: no-repeat;
+        background-size: 1.4em;
+}
+.peoplegood{
+        background-image: url(https://cdn0.iconfinder.com/data/icons/clipboard-1/100/clipboard-10-512.png);
+        background-position: 295px 0px;
+        background-repeat: no-repeat;   
+        background-size: 1.4em;
+}
+.cat{
+    background-image: url(https://cdn0.iconfinder.com/data/icons/clipboard-1/100/clipboard-10-512.png);
+    background-position: 295px 0px;
+    background-repeat: no-repeat;   
+    background-size: 1.4em;
+
+}
+.noclue{
+    background-image: url(https://cdn0.iconfinder.com/data/icons/clipboard-1/100/clipboard-10-512.png);
+    background-position: 295px 0px;
+    background-repeat: no-repeat;   
+    background-size: 1.4em;
+}
+.article3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+.child {
+    margin: 0 auto;
+    height: auto;
+    max-width: 750px;
+    margin-right: 10px;;
+    float: left;
+}
+
+.babaaurhum {
+    text-align: start;
+}
+
